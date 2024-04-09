@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, sans-serif;           
+}
+
+body{    
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712534400&semt=ais);
+    
+}
+
+nav{    
+    background-image: linear-gradient(rgb(18, 22, 26), rgb(136, 187, 189));  
+    font-size: large; 
+    text-align: center;    
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav > a{
+    text-decoration: none;       
+    color: rgb(255, 255, 255);
+    margin: 0 40px;
+}
+
+section{
+    margin: 20px;    
+    padding: 20px;
+    background-color: rgb(252, 249, 240);
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+.section-about{
+    margin-top: 75px;    
+    top: 0;       
+}
+
+.ul-projects > p{
+ padding-left: 20px; 
+}
+
+#treasure-hunting{
+    display: inline-block;
+}
+
+#treasure-hunting:hover > #java-logo{
+    display: none;
+}
+
+#calculator{
+    display: inline-block;
+}
+
+#blog-ai{
+    display: inline-block;
+}
+
+#snake-game{
+    display: inline-block;
+}
+
+#java-logo{        
+    width: 2em;
+    position: relative;
+    left: 1em;
+    top: 0.3em;          
+}
+
+#python-logo{
+    width: 2em;
+    position: relative;
+    left: 0.5em;
+    top: 0.7em;
+    background-color: 252, 249, 240;
+    opacity: 0.90;
+}
+
+footer{
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(252, 249, 240);
+    border-radius: 20px;  
+    opacity: 0.95;  
+}
+
+footer li{
+    margin-top: 0.2em; 
+    list-style-type: none;  
+}
+
+#linkedin-logo{
+    width: 2em;
+    position: relative;
+    top: 0.6em;
+    left: 0.3em;
+    
+}
+
+#github-logo{
+    width: 2.3em;
+    position: relative;
+    top: 0.6em;
+    left: 0.9em;     
+}
+
+#email{
+    top: 1em;  
+    position: relative; 
+}
+
+
+
+
