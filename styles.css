@@ -5,7 +5,6 @@
 body{    
     margin: 0;
     background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712534400&semt=ais);
-    
 }
 
 nav{    
@@ -42,23 +41,7 @@ section{
  padding-left: 20px; 
 }
 
-#treasure-hunting{
-    display: inline-block;
-}
-
-#treasure-hunting:hover > #java-logo{
-    display: none;
-}
-
-#calculator{
-    display: inline-block;
-}
-
-#blog-ai{
-    display: inline-block;
-}
-
-#snake-game{
+.ul-projects li{
     display: inline-block;
 }
 
